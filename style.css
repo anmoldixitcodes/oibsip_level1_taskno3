@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-image: url(bg2.webp);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 30vw;
+    background-color: rgb(226, 155, 155);
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.box h2{
+    margin: 12px 2px;
+}
+.input{
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.input h3{
+    margin: 2px 2px;
+    font-size: 24px;
+}
+#convertfrom{
+    margin: 2px 12px;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 28px;
+}
+.input1{
+    display: flex;
+    /* align-items: center; */
+}
+.input1 label {
+    margin: 22px 2px;
+    position: relative;
+    left: -45px;
+    font-size: 24px;
+    font-weight : bold;
+    
+}
+#select1{
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 32px;
+    margin-top: 18px;
+}
+.results{
+    display: flex;
+    align-items: center;
+}
+.results h3{
+    font-size: 24px;
+}
+#result{
+    margin: 2px 20px;   
+    position: relative;
+    right: -11px;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 28px;
+}
+.btn{
+    margin: 20px 2px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(117, 118, 119);
+    color: white;
+}
